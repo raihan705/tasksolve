@@ -141,5 +141,5 @@ STATICFILES_DIRS = [
 LOGIN_REDIRECT_URL = 'todolist'
 LOGIN_URL = 'login'
 
-django-heroku.settings(locals())
+django_heroku.settings(locals())
 
