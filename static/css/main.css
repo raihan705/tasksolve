@@ -1,0 +1,35 @@
+body{
+    background-color: lightgray;
+}
+
+#profile-wrapper{
+
+    text-align: center;
+}
+
+#profile-pic{
+
+    width: 270;
+    height: 270;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg{
+
+    background-color: lightgreen;
+}
+
+.bg-g{
+
+    background-color: rgb(144, 238, 152);
+}
+
+.experience-g{
+    background-color: rgb(144, 224, 238);
+}
+
+.know-g{
+    background-color: rgb(144, 224, 230);;
+}

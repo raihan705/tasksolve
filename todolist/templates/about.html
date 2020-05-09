@@ -1,9 +1,122 @@
 {% extends 'base.html' %}
+{% load static %} 
 
 {% block title %}
 <title>about page</title>
 {% endblock title %}
 
 {% block content %}
-<h1>{{welcome_about}}</h1>
+   <br>
+  
+    <div class="container">
+
+        <div class="row">
+
+            <div class = "col md-3 ">
+
+                <div class = "card card-body h-100 bg" id="profile-wrapper">
+
+                    <img id="profile-pic" src="{% static 'images/raihann.jpg' %}" alt="Profile picture" height="200" width="200" >
+                    <hr>
+                    <h4> I am Raihan Uddin </h4>
+                    <p> I love coding, new technologies and love new things </p>
+
+                </div>
+
+            </div>
+
+            <div class = "col md-9 ">
+
+                <div class = "card card-body h-100 bg-g">
+
+                    <h4> My first coding experience </h4>
+                    <hr>
+
+                    <p> 
+                        In my undergraduate first semester 25 April 2014, I was first introduced 
+                        to programming that was Qbasic. That was the beginning of my journey.
+                        Interestingly, at that time,I am fully blind in this era and then I googled 
+                        and knew many interesting things that were fully unknown to me at that time.
+                        
+                        <br>
+                        <br>
+                        <br>
+                
+                    
+                        After a few semesters of my undergraduate, I became familiar in this era 
+                        and my interest has grown up and that is still running.
+
+                        
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="row">
+
+            <div class = "col md-6">
+
+                <div class = "card card-body h-100 experience-g">
+
+                    <h3> My experince as a developer</h3>
+                    <hr>
+
+                    <p>
+                        Fullstack developer at SoftIt Security.
+                        <br>
+                        <br>
+                        Designed,  built and managed a E-commerce system and CRM 
+                        system as a sole developer.System supported thousands of
+                        customers with a UI for company and a customer dashboard.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class = "col md-6">
+
+                <div class = "card card-body h-100 know-g">
+
+                    <h3>What I know</h3>
+
+                    <hr>
+
+                    <p>
+                        Python, Django, Django Rest Framework, Javascript, Jequery, C, PHP,
+                         HTML, CSS, CSS flex box, Mysql, Postgresql, Sqllite3, Gitgub, Git,
+                         Heroku, AWS, Hosting integration.
+                          <br>
+                          <br>
+
+                          PS: Working on Mongo Db, machine learning and Data science
+
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        
+
+        
+
+
+    </div>
+
+
+ 
+ 
+
 {% endblock content %}
